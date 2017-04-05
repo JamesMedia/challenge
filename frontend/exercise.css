@@ -1,1 +1,78 @@
 /* Styles */
+
+.container {
+    padding: 20px 20px;
+}
+
+.row {
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.col-xs-6{
+    float: left;
+    width: 48%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+h3 {
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: #0c77bc;
+}
+
+.pull-right {
+    float: right;
+}
+
+.button {
+    margin-top: 34px;
+    cursor: pointer;
+    background-color: #f1592a;
+    color: #ffffff;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    text-transform: uppercase;
+    font: 400 18px/22px 'Cabin', sans-serif;
+    padding: 7px 20px 8px;
+    text-align: center;
+    display: inline-block;
+}
+
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.alert-active {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.alert-expired {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+.dea-record {
+    float:left;
+    width:100%;
+    border-bottom: 1px solid #0c77bc;
+}
+
+.record-header {
+    cursor: pointer;
+}
+.record-detail {
+    display: none;
+    float:left;
+    width:100%;
+    background-color: #bce3f4;
+}

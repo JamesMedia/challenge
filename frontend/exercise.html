@@ -2,7 +2,7 @@
 <html lang="en-us">
   <head>
     <meta charset="utf-8">
-    <title>SimpleDEA by [your-name]</title>
+    <title>SimpleDEA by James Donnelly</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="exercise.css">
   </head>
@@ -13,13 +13,22 @@
     <script src="csUtils.js"></script>
     <script src="exercise.js"></script>
     <script>
-      var cs = function(result) {
-        console.log(result);
-        window.setTimeout(function() {
-          csApi.getData(cs);
-        }, 3000);
-      };
-      csApi.getData(cs);
+
     </script>
+
+    <div class="container" >
+      <div class="row">
+        <div class="col-xs-6">
+          <img src="https://www.credsimple.com/wp-content/themes/cs/images/logo.png" alt="CredSimple">
+        </div>
+        <div class="col-xs-6">
+          <a id="button-expired" class="button pull-right">Show Expired</a>
+        </div>
+      </div>
+      <div id="dea-records">
+
+      </div>
+    </div>
+
   </body>
 </html>
